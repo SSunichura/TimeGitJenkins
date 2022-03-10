@@ -21,11 +21,10 @@ import javax.swing.JOptionPane;
  */
 public class Time
 {
-	public static void main(String[] args) 
-	{
-		int totalSeconds = getTotalSeconds("10:10:10");
-		System.out.println("Total Seconds = " + totalSeconds);
-	}
+	public static void main(String[] args) {
+		 int totalSeconds = getTotalSeconds("Github 10:10:10");
+		 System.out.println("Total Seconds = "+totalSeconds);
+		}
 	/*
 	public static void main(String[] args) 
 	{
